@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/etTargetEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="User email to report"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/etTargetName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="User name (optional)"
+            android:layout_marginTop="8dp" />
+
+        <EditText
+            android:id="@+id/etReason"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Reason for reporting"
+            android:minLines="3"
+            android:gravity="top|start"
+            android:layout_marginTop="8dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnSubmitReport"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Submit Report"
+            android:layout_marginTop="16dp" />
+
+    </LinearLayout>
+</ScrollView>

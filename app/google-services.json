@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1046852434506",
+    "project_id": "roamly-a254a",
+    "storage_bucket": "roamly-a254a.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1046852434506:android:1678f2a8cefc5c103a84b3",
+        "android_client_info": {
+          "package_name": "com.Sanket.roamly"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1046852434506-v31rj9gmplhbignb0e21b3q96burp4t1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_ZQhL3Hwnjq51KHkqqgoy5SSJ3SvFFdE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1046852434506-v31rj9gmplhbignb0e21b3q96burp4t1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

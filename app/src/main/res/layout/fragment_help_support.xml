@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Help And Support"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/textPrimary" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Find quick answers to common questions or contact us for more help."
+            android:textColor="@color/textSecondary"
+            android:textSize="14sp" />
+
+        <!-- FAQ section -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Frequently Asked Questions"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textColor="@color/textPrimary" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Q: How do I join a trip?\nA: Open Home, pick a trip card and tap Join."
+            android:textColor="@color/textSecondary"
+            android:textSize="13sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Q: How do I save a trip?\nA: Tap the Save button on any trip card."
+            android:textColor="@color/textSecondary"
+            android:textSize="13sp" />
+
+        <!-- Contact options -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="Need more help?"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textColor="@color/textPrimary" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnEmailSupport"
+            style="@style/Widget.MaterialComponents.Button.TextButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Email support"
+            android:textAllCaps="false"
+            android:textColor="@color/colorPrimary" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnCallSupport"
+            style="@style/Widget.MaterialComponents.Button.TextButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Call support"
+            android:textAllCaps="false"
+            android:textColor="@color/colorPrimary" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnOpenFaq"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="More FAQs"
+            android:textAllCaps="false" />
+
+    </LinearLayout>
+
+</ScrollView>

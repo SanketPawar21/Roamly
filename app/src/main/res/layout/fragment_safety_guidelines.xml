@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#FAFAFA">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Safety Guidelines"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:paddingBottom="10dp" />
+
+        <!-- CARD 1 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:elevation="5dp"
+            android:layout_marginBottom="12dp"
+            android:background="@drawable/card_bg">
+
+            <TextView
+                android:text="Avoid Risky Locations"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="• Do not visit isolated or dangerous areas.\n• Avoid late night meetups in unknown places.\n• Always choose well-populated public areas."
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="6dp" />
+        </LinearLayout>
+
+        <!-- CARD 2 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:elevation="5dp"
+            android:layout_marginBottom="12dp"
+            android:background="@drawable/card_bg">
+
+            <TextView
+                android:text="Verify User Profiles"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="• Always check the host's and participants’ profiles.\n• Join trips only if users have verified details.\n• Report suspicious or fake profiles immediately."
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="6dp"/>
+        </LinearLayout>
+
+        <!-- CARD 3 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:elevation="5dp"
+            android:layout_marginBottom="12dp"
+            android:background="@drawable/card_bg">
+
+            <TextView
+                android:text="Avoid Unknown Persons"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="• Don’t share personal details with strangers.\n• Do not go alone with someone you just met.\n• Always travel in groups when meeting new people."
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="6dp"/>
+        </LinearLayout>
+
+        <!-- CARD 4 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:elevation="5dp"
+            android:layout_marginBottom="12dp"
+            android:background="@drawable/card_bg">
+
+            <TextView
+                android:text="Carry Necessary Items"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="• Always carry ID proof, emergency money and basic medicines.\n• Keep your phone charged and carry a power bank.\n• Carry food, water, and personal safety items."
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="6dp"/>
+        </LinearLayout>
+
+        <!-- CARD 5 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:elevation="5dp"
+            android:layout_marginBottom="12dp"
+            android:background="@drawable/card_bg">
+
+            <TextView
+                android:text="Share Your Trip Details"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="• Inform family/friends about your location.\n• Share host details and expected return time.\n• Keep real-time location sharing ON if possible."
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="6dp"/>
+        </LinearLayout>
+
+        <!-- CARD 6 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:elevation="5dp"
+            android:layout_marginBottom="12dp"
+            android:background="@drawable/card_bg">
+
+            <TextView
+                android:text="Emergency And Awareness"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="• Keep emergency contacts accessible.\n• Know the nearest police station and hospital.\n• Trust your instincts—if something feels wrong, leave immediately."
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="6dp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

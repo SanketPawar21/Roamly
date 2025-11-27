@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- 🚀 MAIN SECTION -->
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/Create_trips"
+            android:icon="@drawable/vacation"
+            android:title="Create Trips" />
+
+        <item
+            android:id="@+id/nav_saved_places"
+            android:icon="@drawable/save"
+            android:title="Saved Places" />
+
+        <item
+            android:id="@+id/nav_safety_guidelines"
+            android:icon="@drawable/rules"
+            android:title="Safety Guidelines" />
+
+        <item
+            android:id="@+id/nav_report_user"
+            android:icon="@drawable/user"
+            android:title="Report User" />
+
+        <item
+            android:id="@+id/nav_emergency"
+            android:icon="@drawable/emergency"
+            android:title="Emergency" />
+
+    </group>
+
+    <!-- ⚙️ SUPPORT SECTION -->
+    <item android:title="Support &amp; Info">
+        <menu>
+
+            <item
+                android:id="@+id/nav_help_support"
+                android:icon="@drawable/support"
+                android:title="Help &amp; Support" />
+
+            <item
+                android:id="@+id/nav_about_roamly"
+                android:icon="@drawable/about"
+                android:title="About Roamly" />
+
+            <item
+                android:id="@+id/nav_privacy_policy"
+                android:icon="@drawable/private_policy"
+                android:title="Privacy Policy" />
+
+        </menu>
+    </item>
+
+    <!-- 🚪 LOGOUT -->
+    <item
+        android:id="@+id/nav_logout"
+        android:icon="@drawable/ic_logout"
+        android:title="Logout" />
+
+</menu>

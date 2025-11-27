@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:fillViewport="true"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- 🔹 Banner Image Slider -->
+        <androidx.viewpager2.widget.ViewPager2
+            android:id="@+id/bannerViewPager"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:clipToPadding="false"
+            android:clipChildren="false" />
+
+
+        <!-- 🔹 Dots Indicator -->
+        <LinearLayout
+            android:id="@+id/dotsLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp" />
+
+        <!-- Title -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Create a Trip"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_gravity="center"
+            android:layout_marginBottom="16dp" />
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="5dp"
+            android:layout_marginBottom="16dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <!-- Location -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Location"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/locationEt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Enter trip location"
+                    android:background="@drawable/edittext_background"
+                    android:padding="10dp"
+                    android:layout_marginTop="6dp"
+                    android:textColor="@color/black"
+                    android:inputType="text" />
+
+                <!-- Date -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Date"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:layout_marginTop="12dp" />
+
+                <EditText
+                    android:id="@+id/dateEt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Select date"
+                    android:focusable="false"
+                    android:background="@drawable/edittext_background"
+                    android:padding="10dp"
+                    android:layout_marginTop="6dp"
+                    android:textColor="@color/black" />
+
+                <!-- Trip Period -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Trip Period (in days)"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:layout_marginTop="12dp" />
+
+                <EditText
+                    android:id="@+id/periodEt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="e.g., 3"
+                    android:background="@drawable/edittext_background"
+                    android:padding="10dp"
+                    android:textColor="@color/black"
+                    android:inputType="number" />
+
+                <!-- People Needed -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="People Needed"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:layout_marginTop="12dp" />
+
+                <EditText
+                    android:id="@+id/peopleEt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Enter number of people"
+                    android:background="@drawable/edittext_background"
+                    android:padding="10dp"
+                    android:textColor="@color/black"
+                    android:inputType="number" />
+
+                <!-- Preference -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Preference"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:layout_marginTop="12dp" />
+
+                <Spinner
+                    android:id="@+id/preferenceSpinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:spinnerMode="dropdown" />
+
+                <!-- Things to Carry -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Things to Carry"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:layout_marginTop="12dp" />
+
+                <EditText
+                    android:id="@+id/thingsEt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="List items like tent, food, etc."
+                    android:background="@drawable/edittext_background"
+                    android:padding="10dp"
+                    android:textColor="@color/black"
+                    android:inputType="textMultiLine"
+                    android:gravity="top"
+                    android:minLines="3" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/createTripBtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Create Trip"
+                    android:textAllCaps="false"
+                    android:layout_marginTop="24dp"
+                    android:backgroundTint="@color/colorPrimary"
+                    android:textColor="@color/white"
+                    app:cornerRadius="10dp" />
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+</ScrollView>

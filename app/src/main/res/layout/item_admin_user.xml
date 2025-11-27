@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:background="@drawable/bg_card">
+
+    <TextView
+        android:id="@+id/tvAdminUserName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="User Name"
+        android:textStyle="bold"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tvAdminUserEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="email@example.com"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/tvAdminUserRating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rating: 5.0 (10)"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/tvAdminUserReports"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reports: 0"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/tvAdminUserStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Active"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/btnBlockUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Block"
+        android:layout_marginTop="4dp" />
+
+</LinearLayout>

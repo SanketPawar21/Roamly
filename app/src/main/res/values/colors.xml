@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base neutrals -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Light theme main mapping (using your colors) -->
+    <color name="colorPrimary">#0277BD</color>          <!-- Primary_Blue -->
+    <color name="colorPrimaryVariant">#039BE5</color>   <!-- Primary_Variant -->
+    <color name="colorAccent">#FFC107</color>          <!-- Warm_Yellow -->
+    <color name="backgroundColor">#F9FAFB</color>
+    <color name="textPrimary">#0A1A2F</color>          <!-- Primary_Text -->
+    <color name="textSecondary">#607D8B</color>        <!-- Secondary_Text -->
+    <color name="gray">#BDBDBD</color>
+
+    <!-- Night theme mapping (already used in values-night/themes.xml) -->
+    <color name="colorPrimary2">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent2">#03DAC5</color>
+
+    <!-- Extra brand / accent colors (your palette) -->
+    <color name="teal_700">#018786</color>
+    <color name="purple_700">#3700B3</color>
+
+    <color name="Primary_Blue">#0277BD</color>
+    <color name="Primary_Variant">#039BE5</color>
+    <color name="Accent_Aqua">#00B8D4</color>
+    <color name="Forest_Green">#2E7D32</color>
+    <color name="Soft_Leaf_Green">#66BB6A</color>
+    <color name="Light_Leaf_Green">#A5D6A7</color>
+    <color name="Sunset_Orange">#FF7043</color>
+    <color name="Deep_Orange">#FF5722</color>
+    <color name="Warm_Yellow">#FFC107</color>
+    <color name="Primary_Text">#0A1A2F</color>
+    <color name="Secondary_Text">#607D8B</color>
+
+    <!-- Trip card background colors (different color each card) -->
+    <color name="trip_card_1">#84DF84</color>   <!-- Light_Leaf_Green -->
+    <color name="trip_card_2">#449AA6</color>   <!-- Soft_Leaf_Green -->
+    <color name="trip_card_3">#FFC107</color>   <!-- Warm_Yellow -->
+    <color name="trip_card_4">#FF7043</color>   <!-- Sunset_Orange -->
+    <color name="trip_card_5">#00B8D4</color>   <!-- Accent_Aqua -->
+
+</resources>
